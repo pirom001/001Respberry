@@ -1,0 +1,25 @@
+{
+    "sources": [
+        {
+            "id": "smt-fac3-no04",
+            "name": "SMT FAC3 No04",
+            "dataDirectory": "E:\\Rasberrypi\\GroupSMTFAC3\\No04",
+            "filePattern": "GSMTFAC3_No04_{date}.csv"
+        },
+        {
+            "id": "smt-fac3-no05",
+            "name": "SMT FAC3 No05",
+            "dataDirectory": "E:\\Rasberrypi\\GroupSMTFAC3\\No05",
+            "filePattern": "GSMTFAC3_No05_{date}.csv"
+        },
+        {
+            "id": "coating-fac3-no01",
+            "name": "COATING FAC3 No01",
+            "dataDirectory": "E:\\Rasberrypi\\GroupCOATINGFAC3\\No01",
+            "filePattern": "GCOATINGFAC3_No01_{date}.csv"
+        }
+    ],
+    "historyDays": 30,
+    "refreshSeconds": 8,
+    "exportDirectory": "C:\\inetpub\\wwwroot\\001Rasberry\\exports"
+}

@@ -1,0 +1,52 @@
+table,
+th,
+td {
+    border: -1px solid #837d7d;
+    font-size: 12px;
+}
+
+table,
+th {
+    border-collapse: collapse;
+    /* text-align: right; */
+}
+
+th label {
+    /* display: block;
+            background-color: red;
+            box-shadow: 0 0 0 1px red;
+            /* ปรับค่าตามต้องการ */
+    margin: -1px;
+    /* ปรับค่าตามต้องการ */
+    padding: 1px;
+}
+
+#scrollContainer #scrollContent td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
+
+/* เพิ่มสไตล์สำหรับตัวอย่างนี้ */
+
+#scrollContainer {
+    width: 100%;
+    height: 114px;
+    overflow: auto;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+#scrollContent {
+    width: 4925px;
+    /* ความกว้างของเนื้อหาทั้งหมด */
+}
+
+#story {
+    font-size: 32px;
+    /* ปรับขนาดตัวอักษรตามที่ต้องการ */
+    background-color: black;
+    color: red;
+}

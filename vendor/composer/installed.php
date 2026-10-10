@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'rundiz/php-scheduler' => array(
+            'pretty_version' => '1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => 'b38e691582a60b406ef4f71a28b4179736a0d565',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rundiz/php-scheduler',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'szymach/c-pchart' => array(
+            'pretty_version' => 'v3.0.17',
+            'version' => '3.0.17.0',
+            'reference' => 'c022568da78f73bb7acf7db7a974934a434d47d7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../szymach/c-pchart',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "rundiz/php-scheduler": "^1.0",
+        "szymach/c-pchart": "^3.0"
+    }
+}
